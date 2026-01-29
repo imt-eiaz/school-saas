@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "School SaaS",
+  title: "SPS Schools and Colleges",
   description: "School management SaaS (PERN + Supabase + Vercel)",
 };
 
