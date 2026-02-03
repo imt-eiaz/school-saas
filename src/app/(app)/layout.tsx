@@ -22,7 +22,9 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         <aside className="hidden w-64 shrink-0 md:block">
           <div className="rounded-2xl border border-zinc-200 bg-white p-4">
             <div className="mb-4">
-              <div className="text-sm font-semibold">School SaaS</div>
+              <div className="text-sm font-semibold">
+                SPS School and Colleges
+              </div>
               <div className="text-xs text-zinc-500">Admin panel</div>
             </div>
             <nav className="space-y-1">
@@ -40,10 +42,11 @@ export default function AppLayout({ children }: { children: ReactNode }) {
         </aside>
 
         <main className="min-w-0 flex-1">
-          <div className="rounded-2xl border border-zinc-200 bg-white p-6">{children}</div>
+          <div className="rounded-2xl border border-zinc-200 bg-white p-6">
+            {children}
+          </div>
         </main>
       </div>
     </div>
   );
 }
-
